@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    list-style: none;
+    font-family: Montserrat;
+}
+body{
+    background-color: #f5f5f5;
+
+}
+button{
+    cursor: pointer;
+}
+/* HEAD */
+header{
+    background-color: #636C79;
+    color: #f5f5f5;
+    padding: 40px 50px 100px 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    padding-bottom: 60px;
+}
+nav > ul{
+    display: flex;
+    position: relative;
+    left: 150px;
+}
+.nav-list{
+    padding: 15px;
+}
+.logo-top{
+    width: 120px;
+    height: 40px;
+}
+.nav-btn{
+    font-weight: 700;
+    background: transparent;
+    color: #f5f5f5;
+    padding: 5px 30px;
+    font-size: 15px;
+    border: 1px solid #ffffff;
+}
+.description{
+    display: flex;
+    justify-content: space-around;
+}
+.first-img{
+    width: 400px;
+    height: 475px;
+    object-fit: cover;
+}
+.description-body{
+    width: 550px;
+}
+.description-body > h1{
+    font-size: 50px;
+    padding: 35px 0;
+}
+.description-body > p{
+    line-height: 150%;
+    color: #dfdddd;
+    width: 450px;
+}
+.talk{
+    margin-top: 50px;
+    width: 400px;
+    padding: 15px 30px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+}
+.talk > input{
+    border: none;
+    background: transparent;
+    font-size: 15px;
+}
+.mail{
+    height: 22px;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+.talk-btn{
+    background-color: #8BB7A2;
+    border: none;
+    padding: 16px 35px;
+    font-weight: 700;
+    color: #f5f5f5;
+    font-size: 17px;
+}
+/* STATS */
+.stats{
+    margin-top: 80px;
+}
+.stat-head{
+    font-size: 38px;
+    width: 550px;
+    position: relative;
+    left: 400px ;
+    text-align: center;
+}
+.numbers{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.numbers > div > h2{
+    font-size: 40px;
+    padding: 20px;
+}
+.numbers > div > p{
+    color: #636C79;
+}
+.stat-img{
+    width: 900px;
+    height: 500px;
+    object-fit: cover;
+    margin-left: 250px;
+    margin-bottom: 250px;
+}
+.head-of-hero{
+    display: flex;
+    justify-content: center;
+}
+.hero-head{
+    width: 500px;
+    text-align: center;
+    font-size: 45px;
+}
+.heros{
+    margin: 10px 110px;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 10px;
+    /* flex-direction: row-reverse; */
+}
+.heros>img{
+    width: 530px;
+    height: 600px;
+    object-fit: cover;
+}
+.hero-body{
+    width: 550px;
+}
+.hero-body > h1{
+    font-size: 40px;
+    padding: 40px 0px;
+}
+.hero-body > p{
+    color: #636C79;
+    font-size: 18px;
+    line-height: 180%;
+    padding-bottom: 40px;
+}
+.team{
+    margin: 75px 120px;
+}
+.team-head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.team-head > h1{
+    font-size: 50px;
+}
+.team-head > p{
+    color: #636C79;
+    width: 650px;
+}
+.team-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.team-member{
+    width:300px ;
+    margin-bottom: 80px;
+}
+.team-member > img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+.bio{
+    font-size: 14px;
+    color: #636C79;
+    padding: 5px 5px;
+    line-height: 150%;
+}
+.name{
+    padding: 10px 5px;
+}
+.team > button{
+    margin-left: 45%;
+}
+footer{
+    background-color: #10181D;
+    padding: 75px 100px;
+    color: #f5f5f5;
+}
+.footheader{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: 50px;
+}
+.bottom-logo{
+    width: 135px;
+}
+.socials{
+    width: 300px;
+}
+.socials > li{
+    width: 505px;
+    padding: 0
+}
+
+.footlist{
+    display: flex;
+    justify-content: space-around;
+}
+.foothead{
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 75px;
+}
+.secondary{
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #949aa1;
+    font-weight: 500;
+}
