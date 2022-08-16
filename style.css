@@ -1,3 +1,4 @@
+/* BASICS */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
 
 *{
@@ -5,18 +6,21 @@
     list-style: none;
     font-family: Montserrat;
 }
-body{
+body, nav>li{
     background-color: #f5f5f5;
-
 }
 button{
     cursor: pointer;
 }
+
 /* HEAD */
 header{
     background-color: #636C79;
     color: #f5f5f5;
     padding: 40px 50px 100px 50px;
+}
+.nav-icon{
+    display: none;
 }
 nav{
     display: flex;
@@ -26,8 +30,7 @@ nav{
 }
 nav > ul{
     display: flex;
-    position: relative;
-    left: 150px;
+    align-items: center;
 }
 .nav-list{
     padding: 15px;
@@ -40,21 +43,22 @@ nav > ul{
     font-weight: 700;
     background: transparent;
     color: #f5f5f5;
-    padding: 5px 30px;
+    padding: 8px 30px;
     font-size: 15px;
     border: 1px solid #ffffff;
 }
 .description{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-right: 3vw;
 }
 .first-img{
-    width: 400px;
+    width: 35vw;
     height: 475px;
     object-fit: cover;
 }
 .description-body{
-    width: 550px;
+    width: 42vw;
 }
 .description-body > h1{
     font-size: 50px;
@@ -67,11 +71,12 @@ nav > ul{
 }
 .talk{
     margin-top: 50px;
-    width: 400px;
+    width: 40vw;
     padding: 15px 30px;
     background-color: #f5f5f5;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .talk > input{
     border: none;
@@ -80,14 +85,12 @@ nav > ul{
 }
 .mail{
     height: 22px;
-    position: relative;
-    top: 15px;
-    left: 10px;
+    margin-right: 1vw;
 }
 .talk-btn{
     background-color: #8BB7A2;
     border: none;
-    padding: 16px 35px;
+    padding: 1vw 2vw;
     font-weight: 700;
     color: #f5f5f5;
     font-size: 17px;
@@ -95,58 +98,62 @@ nav > ul{
 /* STATS */
 .stats{
     margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .stat-head{
-    font-size: 38px;
+    font-size: 3.5vw;
     width: 550px;
-    position: relative;
-    left: 400px ;
     text-align: center;
 }
 .numbers{
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
     text-align: center;
-    margin-top: 60px;
-    margin-bottom: 80px;
+    margin-top: 5vh;
+    margin-bottom: 4.5vh;
 }
 .numbers > div > h2{
-    font-size: 40px;
-    padding: 20px;
+    font-size: 3.5vw;
+    padding: 1vh 7vw;
 }
 .numbers > div > p{
     color: #636C79;
 }
 .stat-img{
-    width: 900px;
-    height: 500px;
+    width: 75vw;
+    height: 40vw;
     object-fit: cover;
-    margin-left: 250px;
-    margin-bottom: 250px;
+    /* margin-left: 250px; */
+    margin-bottom: 12vw;
 }
+/* HERO */
 .head-of-hero{
     display: flex;
     justify-content: center;
 }
 .hero-head{
-    width: 500px;
+    width: 42vw;
     text-align: center;
-    font-size: 45px;
+    font-size: 3.2vw;
 }
 .heros{
     margin: 10px 110px;
     display: flex;
     justify-content: space-between;
-    padding: 60px 10px;
+    padding: 8vh 2vw;
     /* flex-direction: row-reverse; */
 }
 .heros>img{
-    width: 530px;
-    height: 600px;
+    width: 32vw;
+    height: 35vw;
     object-fit: cover;
 }
 .hero-body{
-    width: 550px;
+    width: 40vw;
 }
 .hero-body > h1{
     font-size: 40px;
@@ -155,9 +162,10 @@ nav > ul{
 .hero-body > p{
     color: #636C79;
     font-size: 18px;
-    line-height: 180%;
+    line-hevwight: 180%;
     padding-bottom: 40px;
 }
+/* TEAM */
 .team{
     margin: 75px 120px;
 }
@@ -168,23 +176,25 @@ nav > ul{
     align-items: center;
 }
 .team-head > h1{
-    font-size: 50px;
+    font-size: 3.8vw;
 }
 .team-head > p{
     color: #636C79;
-    width: 650px;
+    width: 60vw;
+    font-style: 1vw;
 }
 .team-cards{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-left: -10vw;
 }
 .team-member{
-    width:300px ;
+    width:10vw ;
     margin-bottom: 80px;
 }
 .team-member > img{
-    width: 300px;
-    height: 400px;
+    width: 20vw;
+    height: 25vw;
     object-fit: cover;
 }
 .bio{
@@ -192,6 +202,7 @@ nav > ul{
     color: #636C79;
     padding: 5px 5px;
     line-height: 150%;
+    width: 15vw;
 }
 .name{
     padding: 10px 5px;
@@ -199,6 +210,7 @@ nav > ul{
 .team > button{
     margin-left: 45%;
 }
+/* FOOTER */
 footer{
     background-color: #10181D;
     padding: 75px 100px;
@@ -235,4 +247,135 @@ footer{
     font-size: 14px;
     color: #949aa1;
     font-weight: 500;
+}
+
+/* MEDIA QUIREY */
+@media screen and (max-width: 900px){
+    nav > ul{
+        display: none;
+    }    
+    .nav-icon{
+        display: block;
+        width: 6vw;
+    }
+    .first-img{
+        display: none;
+    }
+    .description-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 95vw;
+        text-align: center;
+    }
+    .talk{
+        margin-top: 50px;
+        width: 40vw;
+        padding: 15px 30px;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .talk > input{
+        border: none;
+        background: #FFFFFF;
+        padding: 2vw;
+        margin-bottom: 2vw;
+        font-size: 15px;
+    }
+    .mail{
+        display: none;
+    }
+    .talk-btn{
+        background-color: #8BB7A2;
+        border: none;
+        padding: 1.5vw 2.5vw;
+        font-weight: 700;
+        color: #f5f5f5;
+        font-size: 17px;
+    }
+    .hero-img{
+        display: none;
+    }
+    .hero-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
+        text-align: center;
+        background-color: #fff;
+        padding: 2vw;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;        
+    }
+    .team-head{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .team-head > h1{
+        margin-bottom: 1vw;
+    }
+    .team-head > p{
+        width: 80vw;
+    }
+    .team-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .team-member{
+        width: 60vw;
+        background-color: #fff;
+        padding: 3vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    }
+    .last-btn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .last-btn > button{
+        padding: 2vw 4vw;
+    }
+    .team-member > img{
+        width: 35vw;
+        height: 45vw;
+        border-radius: 50%;
+    }
+    .bio{
+        width: 50vw;
+        text-align: center;
+    }
+    footer{
+        margin: 0;
+        padding: 5vw 2vw;
+    }
+    .footheader{
+        padding: 0;
+    }
+    .bottom-logo{
+        width: 15vw;
+        padding: 2vw;
+        margin: 2vw;
+    }
+    .socials{
+        width: 30vw;
+    }
+    .list > h6{
+        font-size: 2.5vw;
+        padding: 1vw;
+    }
+    .list > li{
+        font-size: 1.5vw;
+        padding: 1vw;
+    }
 }
