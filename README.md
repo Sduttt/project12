@@ -8,11 +8,11 @@ This webpage is created with core HTML and CSS.It is fully responsive.It took me
 
 ## Screenshot of the full web-page in normal laptop screen:
 
-![Full website](./images/mobile.png)
+![Full website](./images/fullpage.png)
 
 ## Screenshot of the full web-page in normal mobile screen:
 
-![Full website](./images/fullpage.png)
+![Full website](./images/mobile.png)
 
 ## Contact me: [Linkedin](https://www.linkedin.com/in/subham-dutta-8670b8178/) | [Github](https://github.com/Sduttt) | [Twitter](https://twitter.com/Subhamd88404337) | [Facebook](https://www.facebook.com/profile.php?id=100073951804006) | [Instagram](https://www.instagram.com/its_subham_dutta/)
 
